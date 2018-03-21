@@ -1,0 +1,19 @@
+/*Check out this :root */
+:root {
+ --base: #83e429;
+ --spacing: 25px;    
+ --blur: 15px;    /* -- as a prefix is a standard in CSS*/
+
+}
+
+img{
+    padding: var(--spacing); /* Using the variables in CSS that can change at any time. pass it in var()*/
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+hl{
+    color: var(--base);
+}
+
+/*Demonstarting the use of CSS variables in CSS. -=- (backwards compatibility) */
